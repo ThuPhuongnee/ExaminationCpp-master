@@ -135,7 +135,7 @@ public:
     bool registerUser(const string& username, string password, const string& fullName, bool isAdmin, bool isAuto = false) {
         for (const auto& user : users) {
             if (user.username == username) {
-                cout << "Tên đăng nhập đã tồn tại!" << endl;
+                cout << "Ten dang nhap da ton tai!" << endl;
                 return false;
             }
         }
